@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+.container-of-all {
+	display: flex;
+	justify-content: space-evenly;
+}
+table, td, th {
+	border: black 1px solid;
+	vertical-align: top;
+	font-size: 12px;
+	min-width: 48px;
+}
+.table-container {
+	padding: 8px;
+	width: fit-content;
+	display: none;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	background-color: #f0f0f0;
+}
+td {
+	font-family: sans-serif;
+	text-align: left;
+}
+td p {
+	margin: 0;
+	margin-bottom: -6px;
+}
+.game-container {
+	padding: 8px;
+	max-width: fit-content;
+}
+.fac-button {
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	width: 64px;
+	height: 64px;
+}
+.help-input {
+	width: 64px;
+	height: 48px;
+}
+.help-sum {
+	float: right;
+	margin-top: 8px;
+}
+h2 {
+	font-family: cursive;
+}
+.header-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 8px;
+}
+b {
+	text-align: center;
+}

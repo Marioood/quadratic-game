@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>Quadratics "Game"</title>
+		<script type="text/javascript" src="simple.js"></script>
+		<script type="text/javascript" src="shared.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="header-container">
+			<img src="carman.gif" alt="from https://bleach67.tripod.com/archive/anigi.html">
+			<h2>my really cool math web site</h2>
+			<img src="ani-chef.gif" alt="from https://www.angelfire.com/ia/sean917/animatedgifs.html">
+		</div>
+		<div class="container-of-all">
+			<div class="game-container">
+				<b>Standard Quadratic:</b>
+				<p id="std">STANDARD FORM QUADRATIC</p>
+				<b>Simplified (your!) Quadratic:</b>
+				<p id="smp">SIMPLIFIED FORM QUADRATIC</p>
+				<input type="number" id="f1">
+				<input type="number" id="f2">
+				<br>
+				<br>
+				<input type="number" id="c1">
+				<input type="number" id="c2">
+				<br>
+				<br>
+				<button id="submit" onclick="checkAnswer()">Submit</button>
+				<p id="status">...</p>
+				<div id="help-container" style="max-width: fit-content;"></div>
+			</div>
+			<div class="table-container" id="table-container">
+				<table id="faclist"></table>
+			</div>
+		</div>
+		<button class="fac-button" onclick="toggleFactorTable()">Toggle Factor Table</button>
+		<script>
+			setup();
+		</script>
+	</body>
+</html>
