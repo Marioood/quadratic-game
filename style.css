@@ -10,10 +10,22 @@ table, td, th {
 	vertical-align: top;
 	font-size: 12px;
 	min-width: 48px;
+	max-width: 48px;
+}
+.fac-cell {
+	min-width: 96px;
+	max-width: 96px;
+}
+td input {
+	max-width: 100%;
 }
 .table-container {
 	padding: 8px;
 	width: fit-content;
+	display: flex;
+	justify-content: space-evenly;
+}
+.hidden {
 	display: none;
 }
 table {
